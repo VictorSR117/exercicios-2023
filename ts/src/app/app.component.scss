@@ -141,6 +141,12 @@ nav {
   }
 }
 
+.question {
+  border-radius: 0.1875rem;
+  border: 1px solid #ECECEC;
+  padding: 1em;
+}
+
 .download {
   border-radius: .4em;
 }
@@ -278,4 +284,149 @@ nav {
     line-height: 152.344%;
     letter-spacing: 0.0175rem;
   }
+}
+
+.discutions {
+  margin-top: 2em;
+}
+
+.feedback--author {
+  margin-top: 1em;
+  color: #5C5C5C;
+  text-align: center;
+  font-family: Quicksand;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.assunt {
+  color: #ED7839;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.text--assunt {
+  border-radius: 0.1875rem;
+  border: 1px solid #CCC;
+  background: #FFF;
+  padding: .7em 1em;
+  width: 77.4vw;
+}
+
+.text--content {
+  resize: none;
+}
+
+.send--area {
+  border-radius: 0rem 0rem 0.25rem 0.25rem;
+  border: 1px solid #CCC;
+  background: #EAF1F2;
+  display: flex;
+  justify-content: end;
+  margin-top: -.4em;
+  margin-bottom: 1em;
+  width: 77.4vw;
+
+  button {
+    border: none;
+    border-radius: 0rem 0rem 0.25rem 0rem;
+    background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+    padding: .5em 5em;
+    color: #FFF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1rem;
+  }
+}
+
+.comment {
+  margin-top: 2em;
+  border-radius: 0.25rem;
+  border: 1px solid #E7E7E7;
+  background: #FFF;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.12);
+  padding: 1em;
+
+  p {
+    color: #4D4D4D;
+    font-family: Quicksand;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .comment--assunt {
+    color: #ED7839;
+    font-family: Quicksand;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .comment--author {
+    color: #5C5C5C;
+    font-family: Quicksand;
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .text--comment {
+    color: #757575;
+    font-family: Segoe UI;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 350;
+    line-height: normal;
+    margin-right: .8em;
+  }
+}
+
+.text--coments {
+  margin-left: .5em;
+  margin-top: .8em;
+}
+
+.btn--comment {
+  display: flex;
+  align-items: center;
+}
+
+.more {
+  margin-top: 1em;
+}
+
+.favorite--marker {
+  background-color: #ED7839;
+  border: none;
+  border-radius: .4em;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: normal;
+  padding: .5em .7em;
+  display: inline-flex;
+  align-items: center;
+  color: #fff;
+  margin-left: 10px;
+  margin-top: 1em;
+
+  img {
+    height: 20px;
+  }
+}
+
+footer {
+  margin-top: 3em;
 }
