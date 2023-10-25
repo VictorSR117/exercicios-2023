@@ -1,0 +1,55 @@
+.feedback--author {
+    margin-top: 1em;
+    color: #5C5C5C;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.assunt {
+    color: #ED7839;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text--assunt {
+    border-radius: 0.1875rem;
+    border: 1px solid #CCC;
+    background: #FFF;
+    padding: .7em 1em;
+    width: 77.4vw;
+}
+
+.text--content {
+    resize: none;
+}
+
+.send--area {
+    border-radius: 0rem 0rem 0.25rem 0.25rem;
+    border: 1px solid #CCC;
+    background: #EAF1F2;
+    display: flex;
+    justify-content: end;
+    margin-top: -.4em;
+    margin-bottom: 1em;
+    width: 77.4vw;
+
+    button {
+        border: none;
+        border-radius: 0rem 0rem 0.25rem 0rem;
+        background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+        padding: .5em 5em;
+        color: #FFF;
+        text-align: center;
+        font-family: Quicksand;
+        font-size: 0.9375rem;
+        font-weight: 700;
+        line-height: 1rem;
+    }
+}

@@ -1,0 +1,38 @@
+.new--topics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em 8em;
+    padding-bottom: 3em;
+}
+
+.new-topic--title {
+    color: #ED7839;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.icons img {
+    margin: 1em;
+
+}
+
+.description--topic {
+    color: #595959;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 137.5%;
+}
+
+.create-newTopic {
+    color: #FFF;
+    text-align: center;
+    font-family: Quicksand;
+    font-size: 0.9375rem;
+    font-weight: 700;
+    line-height: 1rem;
+}
